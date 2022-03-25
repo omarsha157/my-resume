@@ -72,7 +72,11 @@ phoneCpyBtn.addEventListener('click', () => {
 addressCpyBtn.addEventListener('click', () => {
     navigator.clipboard.writeText("Sha land, AKG nagar, Edava p.o , Trivandrum pin: 695311");
 
-    addressCpyBtn.classList.add('tl-tp');
+    if (darkMod === true) {
+        addressCpyBtn.classList.add('tl-tp-dark');
+    } else {
+        addressCpyBtn.classList.add('tl-tp');
+    }
 
     const myTimeout = setTimeout(removeAfter, 1000);
     function removeAfter() {
