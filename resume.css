@@ -118,6 +118,10 @@ a:hover {
     text-decoration: none;
 }
 
+.pdg {
+    padding-bottom: 1.2em;
+}
+
 @media  screen and (max-width: 576px) {
     .name-section {
         /* padding-top: 62%; */
