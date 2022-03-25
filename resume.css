@@ -1,0 +1,154 @@
+
+
+body {
+    color: #464a31;
+    background-color: #d7d9d4;
+}
+
+a {
+    color: #464a31;
+}
+
+a:hover {
+    color: unset;
+    opacity: 0.5;
+}
+
+.moon-btn {
+    width: 21px;
+    position: absolute;
+    top: 3%;
+    right: 6%;
+    cursor: pointer;
+}
+
+.sun-btn {
+    width: 25px;
+    position: absolute;
+    top: 3%;
+    right: 6.1%;
+    cursor: pointer;
+}
+
+.tog-btn {
+    display: none;
+}
+
+
+.profile-img {
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.name-section {
+    /* padding-top: 10%; */
+    padding-bottom: 40%;
+}
+
+.s1-title {
+    padding-right: 6%;
+    margin-top: -0.8rem;
+}
+
+.txt-s1 {
+    padding-left: 4em;
+}
+
+.txt-s1-h {
+    padding-left: 3em;
+}
+
+.txt-s1 svg {
+    padding-left: 0.2em;
+}
+
+.txt-1-s1 {
+    padding-top: 3em;
+}
+
+.txt-2-s1 svg{
+    margin-top: -3px;
+}
+
+.s1-dark {
+    width: 20px;
+    fill: #d7d9d4;
+}
+
+.s1-light {
+    width:20px;
+    fill: #464a31;
+}
+
+.contact {
+    cursor: pointer;
+}
+
+.contact:hover {
+    opacity: 0.8;
+}
+
+.tl-tp::after {
+    opacity: 1;
+    content: attr(data-tooltip);
+    margin-left: 0.3em;
+    padding: 0.3em;
+    border-radius: 0.6em;
+    background-color: #464a31;
+    color: #d7d9d4;
+}
+
+.tl-tp-dark::after {
+    opacity: 1;
+    content: attr(data-tooltip);
+    margin-left: 0.3em;
+    padding: 0.3em;
+    border-radius: 0.6em;
+    background-color: #d7d9d4;
+    color: #464a31;
+}
+
+.txt-3-s1 {
+    width: 75%;
+}
+
+.project-section a {
+    text-decoration: none;
+}
+
+@media  screen and (max-width: 576px) {
+    .name-section {
+        /* padding-top: 62%; */
+        padding-bottom: 30%;
+    }
+
+}
+
+@media  screen and (min-width: 768px) {
+    .name-section {
+        /* padding-top: 40%; */
+        padding-bottom: 10%;
+    }
+
+    .profile-img {
+
+        margin-left: 25%;
+        padding-top: 10%;
+        padding-bottom: 2%;
+    }
+}
+
+@media  screen and (min-width: 992px) {
+
+    .skills-section {
+        padding-top:25%;
+    }
+
+    .profile-img {
+        padding-top: 8%;
+    }
+}
+
+
